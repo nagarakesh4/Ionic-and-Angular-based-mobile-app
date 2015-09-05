@@ -1,0 +1,83 @@
+{
+  "bigPlayers": [
+    {
+      "bio": "Rafael  Nadal Parera (born 3 June 1986) is a Spanish professional tennis player currently ranked world No. 8.[3] He is widely regarded as one of the finest clay court players in history[a] and has been titled .[b] His evolution into an all-court threat has established him as one of the greatest players in tennis history,[c] with some considering Nadal to be the greatest player of all time",
+      "shortname": "rafael",
+      "type": "people",
+      "name": "Rafael Nadal",
+      "reknown": "King of Clay"
+    },{
+      "bio": "Roger Federer (born 8 August 1981) is a Swiss professional tennis player who is currently ranked world No. 2 by the Association of Tennis Professionals (ATP).[4] Many commentators and players regard Federer as the greatest tennis player of all time.[a] Federer turned professional in 1998 and has been ranked inside the top 10 since October 2002.",
+      "shortname": "feddie",
+      "type": "people",
+      "name": "Roger Federer",
+      "reknown": "King of Ace"
+    },{
+      "bio": "Steven Paul Jobs (February 24, 1955 – October 5, 2011) was an American businessman. He was best known as the co-founder, former chairman, and former chief executive officer of Apple Inc.; co-founder and former chief executive of Pixar Animation Studios; a member of Disney's board of directors following their acquisition of Pixar; and founder, chairman, and CEO of NeXT. Jobs is widely recognized as a pioneer of the microcomputer revolution of the 1970s, along with Apple co-founder Steve Wozniak; shortly after his death, Jobs's official biographer, ",
+      "shortname": "jobs",
+      "type": "people",
+      "name": "Steve Jobs",
+      "reknown": "Creative Entrepreneur"
+    },{
+      "bio": "Mark Elliot Zuckerberg (born May 14, 1984) is an American computer programmer and Internet entrepreneur. He is best known as one of five co-founders of the social networking website Facebook. Zuckerberg is the chairman and chief executive of Facebook, Inc.[4][5] His personal wealth, as of July 2015, is estimated to be $38.6 billion.[3] Zuckerberg receives a one-dollar salary as CEO of Facebook",
+      "shortname": "mark",
+      "type": "people",
+      "name": "Mark Zuckerberg",
+      "reknown": "The Man behind facebook"
+    },{
+      "bio": "Lawrence Joseph Ellison (born August 17, 1944) is an American programmer, internet entrepreneur, businessman and philanthropist. He was the chief executive officer of the software company Oracle Corporation between its foundation in 1977 and 2014. In 2014, he was listed by Forbes as the third-wealthiest man in America and as the fifth-wealthiest person in the world, with a fortune of $56.2 billion",
+      "shortname": "larry",
+      "type": "people",
+      "name": "Larry Ellison",
+      "reknown": "Achieved Ernst & Young award"
+    },{
+      "bio": "Sourav Chandidas Ganguly (born 8 July 1972), affectionately known as Dada (meaning elder brother) is a former Indian cricketer and captain of the Indian national team.Currently, he is the Joint Secretary of Cricket Association of Bengal and President of the Editorial Board with Wisden India",
+      "shortname": "sourav",
+      "type": "people",
+      "name": "Sourav Ganguly",
+      "reknown": "Dada"
+    },{
+      "bio": "Sachin Tendulkar (born 24 April 1973) is a former Indian cricketer and captain, widely regarded to be one of the greatest cricketers of all time and by many as the greatest batsman of all time.[4][5][6][7] He took up cricket at the age of eleven, made his Test debut on 15 November 1989 against Pakistan in Karachi at the age of sixteen, and went on to represent Mumbai domestically and India internationally for close to twenty-four years.",
+      "shortname": "sachin",
+      "type": "people",
+      "name": "Sachin Tendulkar",
+      "reknown": "Master Blaster"
+    },{
+      "bio": "Rahul Dravid (born 11 January 1973) is a former Indian cricketer and captain, widely regarded as one of the greatest batsmen in the history of cricket.[1][2][3] Born in a Marathi family, he started playing cricket at the age of 12 and later represented the state team at the under-15, under-17 and under-19 levels. Hailed as The Wall, Dravid was named one of the best five cricketers of the year by Wisden Cricketers' Almanack in 2000 and received the Player of the Year and the Test Player of the Year awards at the inaugural ICC awards ceremony in 2004",
+      "shortname": "dravid",
+      "type": "people",
+      "name": "Rahul Dravid",
+      "reknown": "The Wall"
+    },{
+      "bio": "Virender Sehwag (born 20 October 1978) is an Indian cricketer. An aggressive right-handed opening batsman and a part-time right-arm off-spin bowler, he played his first One Day International in 1999 and joined the Indian Test team in 2001. In April 2009, Sehwag became the only Indian to be honoured as the Wisden Leading Cricketer in the World for his performance in 2008,[2] subsequently becoming the first player of any nationality to retain the award for 2009.",
+      "shortname": "sehwag",
+      "type": "people",
+      "name": "Virender Sehwag",
+      "reknown": "Synonym for Agression"
+    },{
+      "bio": "LinkedIn is a business-oriented social networking service. It was founded in December 2002 and launched on May 5, 2003,[2] it is mainly used for professional networking. In 2006, LinkedIn increased to 20 million members.[8] As of March 2015, LinkedIn reports more than 364 million acquired users in more than 200 countries and territories",
+      "shortname": "linkedin",
+      "type": "applications",
+      "name": "LinkedIn inc",
+      "reknown": "Platform to showcase your work-experience and portfolio!"
+    },{
+      "bio": "GitHub is a Web-based Git repository hosting service, which offers all of the distributed revision control and source code management (SCM) functionality of Git as well as adding its own features. Unlike Git, which is strictly a command-line tool, GitHub provides a Web-based graphical interface and desktop as well as mobile integration.",
+      "shortname": "git",
+      "type": "applications",
+      "name": "GitHub",
+      "reknown": "An Awesome source code repository!"
+    },{
+      "bio": "Facebook is an online social networking service headquartered in Menlo Park, California. Its website was launched on February 4, 2004, by Mark Zuckerberg with his Harvard College roommates and fellow students Eduardo Saverin, Andrew McCollum, Dustin Moskovitz and Chris Hughes.[8] The founders had initially limited the website's membership to Harvard students, but later expanded it to colleges in the Boston area, the Ivy League, and Stanford University.",
+      "shortname": "fb",
+      "type": "applications",
+      "name": "facebook",
+      "reknown": "Showcase your social profile!"
+    },{
+      "bio": "Twitter is an online social networking service that enables users to send and read short 140-character messages called tweets. Registered users can read and post tweets, but unregistered users can only read them. Users access Twitter through the website interface, SMS, or mobile device app.[10] Twitter Inc. is based in San Francisco and has more than 25 offices around the world",
+      "shortname": "twit",
+      "type": "applications",
+      "name": "Twitter",
+      "reknown": "Tweet anything!"
+    }
+  ]
+}
