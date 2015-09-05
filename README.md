@@ -1,5 +1,5 @@
 # Ionic-and-Angular-based-mobile-app
-This project builds a hybrid mobile application with features of ionic and angularjs. Angular's ability to fetch and filter data makes ionic powerful. 
+This project builds a hybrid mobile application which supports cross-platform compatibility with features of ionic and angularjs. Angular's ability to fetch and filter data makes ionic powerful. This project is built from scratch on ionic blank template. Do a ionic start myApp blank - to create a blank ionic project. Test this project on a browser with 'ionic serve'. 
 
 ###Components & Usage of Ionic
 Ionic framework by default gives the capability to make the application responsive. This project implements components of ionic. Some components that are used in this project replicate features of native mobile applications, such as
