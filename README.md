@@ -12,11 +12,22 @@ Ionic framework by default gives the capability to make the application responsi
 
 ![Alt text](https://github.com/nagarakesh4/Ionic-and-Angular-based-mobile-app/blob/master/screenshots/full%20app%20-%20list.png "Overview")
 
-> Filter the ionic list based on the search using angularjs filter - here filter based on keyword "enterpreneurs"
+> Filter the list based on the search text entered using angularjs filter - here filter based on keyword "enterpreneurs"
 
 ![Alt text](https://github.com/nagarakesh4/Ionic-and-Angular-based-mobile-app/blob/master/screenshots/enterpreneurs.png "Filter by Enterpreneurs")
 
-> Reorder items in the list using ionic directives
+> Click on hamburger icon on the header bar to custom reorder items in the list
 
 ![Alt text](https://github.com/nagarakesh4/Ionic-and-Angular-based-mobile-app/blob/master/screenshots/custom%20reorder%20item.png "Reorder items")
 
+> Drag item to the left and click on star to mark as favorite item 
+
+![Alt text](https://github.com/nagarakesh4/Ionic-and-Angular-based-mobile-app/blob/master/screenshots/drag%20to%20mark%20favorite.png "drag to mark as favorite")
+
+> Click on minus icon on the header bar to show delete option for each item and remove items from the list
+
+![Alt text](https://github.com/nagarakesh4/Ionic-and-Angular-based-mobile-app/blob/master/screenshots/remove%20item.png "remove item in list")
+
+> Responsive mobile app - on desktop with reorder feature
+
+![Alt text](https://github.com/nagarakesh4/Ionic-and-Angular-based-mobile-app/blob/master/screenshots/responsive%20-desktop%20-%20reorder.png "on desktop")
