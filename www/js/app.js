@@ -72,6 +72,10 @@ angular.module('starter', ['ionic'])
       $scope.bigPlayers = data.bigPlayers;
       $scope.selectedPlayer = $state.params.name;
 
+      //fix for order and minus not opening once primary and secondary are declared for them which was written to avoid the hiding of
+      //these buttons once  <ion-nav-back-button> is enabled
+      $scope.data = {showDelete: false, showReorder: false}
+
       $scope.onItemDelete = function(item){
         $scope.bigPlayers.splice($scope.bigPlayers.indexOf(item), 1);
       }
