@@ -18,6 +18,37 @@ angular.module('starter', ['ionic'])
   });
 })
 
+//config
+.config(function($stateProvider, $urlRouterProvider){
+  //this doesn't actually load the tabs, but is just an abstract (true) that contains tabs
+  $stateProvider
+    .state('tabs', {
+      url: '/tab',
+      abstract: true,
+      templateUrl: 'templates/tabs.html'
+    })
+    //sub view - for child list tab in the parent tabs show the lists
+    .state('tabs.list', {
+      url: '/list',
+      views: {
+        'list-tab':{
+          templateUrl: 'templates/list.html',
+          controller: 'ListController'
+        }
+      }
+    })
+    .state('tabs.list2', {
+      url: '/list2',
+      views: {
+        'list2-tab':{
+          templateUrl: 'templates/list.html',
+          controller: 'ListController'
+        }
+      }
+    })
+    $urlRouterProvider.otherwise('/tab/list');//goes to the above sub view
+})
+
 // add controller
 .controller('ListController', ['$scope', '$http', '$state',
     function($scope, $http, $state) {
