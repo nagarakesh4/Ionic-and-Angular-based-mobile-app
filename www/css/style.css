@@ -1,3 +1,6 @@
+body{
+	cursor: url('http://ionicframework.com/img/finger.png');
+}
 /* Empty. Add your own CSS if you like */
 .star > .item-content {
 	background-color: #eee8d6 !important;
@@ -14,7 +17,33 @@
 
 .branding{
 	width: 50%;
-	max-width: 200px;
+	max-width: 300px;
 	margin: 120px auto;
 	text-align: center;
+}
+.tagLine{
+	font-size: 1.4rem;
+}
+.branding p{
+	margin-top: 10px;
+	font-size: 1rem;
+}
+.item-divider{
+	background-color: #00aed1 !important;
+}
+.item-thumbnail-left img{
+	border-radius : 10px;
+}
+.item h3{
+	font-size: 1.2rem;
+	font-weight: bold;
+	color: #417d9a;
+}
+.dayHighlight{
+	background-color: #9ec6de;
+	border-top: 20px solid #417d9a;
+}
+.dayHighlight h2{
+	color: #417d9a;
+	font-size: 2rem;
 }
