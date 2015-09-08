@@ -10,6 +10,9 @@ Ionic framework by default gives the capability to make the application responsi
 3. Pull to refresh is another feature that comes handy with ionic and is implemented in this project.
 4. Ionic tabs are implemented in this which helps in providing the same and look feel of tabs in mobile apps. These tabs are controlled by ui-router.
 
+####Application - gif
+![Alt text](https://github.com/nagarakesh4/Ionic-and-Angular-based-mobile-app/blob/master/screenshots/hppAPT.gif "Application gif")
+
 ###Screenshots - Responsive application
 
 #### Home page - showing 3 tabs to navigate - icons from ionic
