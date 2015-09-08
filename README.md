@@ -1,11 +1,14 @@
 # Ionic-and-Angular-based-mobile-app
 This project builds a hybrid mobile application which supports cross-platform compatibility with features of ionic and angularjs. Angular's ability to fetch and filter data makes ionic powerful. This project is built from scratch on ionic blank template. Do a ionic start myApp blank - to create a blank ionic project. Test this project on a browser with 'ionic serve'. 
 
+ui-router controlls the routing for this app. Ionic Tabs are controlled by state provider in angularjs using ui-router. 
+
 ###Components & Usage of Ionic
 Ionic framework by default gives the capability to make the application responsive. This project implements components of ionic. Some components that are used in this project replicate features of native mobile applications, such as
 1. <ion-reorder-button> directive along with angularjs provides the capability to easily reorder an item in a list,
 2. the directive <ion-option-button> provides the option to drag a item (to mark as favorite).
 3. Pull to refresh is another feature that comes handy with ionic and is implemented in this project.
+4. Ionic tabs are implemented in this which helps in providing the same and look feel of tabs in mobile apps. These tabs are controlled by ui-router.
 
 ###Screenshots - Responsive application
 ##### Full application - showing list of people and appplications (after scroll down)
