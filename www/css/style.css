@@ -2,3 +2,19 @@
 .star > .item-content {
 	background-color: #eee8d6 !important;
 }
+
+/*this css is for content in home*/
+.splash{
+	background: url(../img/ic_poly.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.branding{
+	width: 50%;
+	max-width: 200px;
+	margin: 120px auto;
+	text-align: center;
+}

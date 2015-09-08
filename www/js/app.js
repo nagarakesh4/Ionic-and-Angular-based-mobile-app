@@ -27,6 +27,17 @@ angular.module('starter', ['ionic'])
       abstract: true,
       templateUrl: 'templates/tabs.html'
     })
+   
+    //sub view - for child home tab in the parent tabs show the home page (no controller needed)
+    .state('tabs.home', {
+      url: '/home',
+      views: {
+        'home-tab':{
+          templateUrl: 'templates/home.html'
+        }
+      }
+    })
+
     //sub view - for child list tab in the parent tabs show the lists
     .state('tabs.list', {
       url: '/list',
@@ -37,16 +48,8 @@ angular.module('starter', ['ionic'])
         }
       }
     })
-    .state('tabs.list2', {
-      url: '/list2',
-      views: {
-        'list2-tab':{
-          templateUrl: 'templates/list.html',
-          controller: 'ListController'
-        }
-      }
-    })
-    $urlRouterProvider.otherwise('/tab/list');//goes to the above sub view
+    
+    $urlRouterProvider.otherwise('/tab/home');//goes to the above sub view
 })
 
 // add controller
