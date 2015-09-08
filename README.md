@@ -11,6 +11,10 @@ Ionic framework by default gives the capability to make the application responsi
 4. Ionic tabs are implemented in this which helps in providing the same and look feel of tabs in mobile apps. These tabs are controlled by ui-router.
 
 ###Screenshots - Responsive application
+
+#### Home page - showing 3 tabs to navigate - icons from ionic
+![Alt text](https://github.com/nagarakesh4/Ionic-and-Angular-based-mobile-app/blob/master/screenshots/home.png "Home")
+
 ##### Full application - showing list of people and appplications (after scroll down)
 
 ![Alt text](https://github.com/nagarakesh4/Ionic-and-Angular-based-mobile-app/blob/master/screenshots/full%20app%20-%20list.png "Overview")
