@@ -48,6 +48,18 @@ angular.module('starter', ['ionic'])
         }
       }
     })
+
+    //sub view - for child details tab in the parent list tabs show the details of each list
+    // the view name doesn;t change because this is the child of lists template, both will have same view name (part of same tab)
+    .state('tabs.details', {
+      url: '/list/:name',
+      views: {
+        'list-tab':{
+          templateUrl: 'templates/details.html',
+          controller: 'ListController'
+        }
+      }
+    })
     
     $urlRouterProvider.otherwise('/tab/home');//goes to the above sub view
 })
@@ -58,6 +70,7 @@ angular.module('starter', ['ionic'])
     $http.get('js/data.json').success(function(data) {
       console.log(data.bigPlayers);
       $scope.bigPlayers = data.bigPlayers;
+      $scope.selectedPlayer = $state.params.name;
 
       $scope.onItemDelete = function(item){
         $scope.bigPlayers.splice($scope.bigPlayers.indexOf(item), 1);
